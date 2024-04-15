@@ -14,6 +14,35 @@ Thats one of the funniest things: Tools having a GUI but a (silent) command-line
 
 ![basic-usage-1](https://github.com/Dragodraki/FNR---Find-and-replace/assets/76787321/8b8d9b48-f4af-4c0b-8255-d77bcc70af97)
 
+
+-------------------------------
+VERSION 1.8.1 -> 1.9.0 (fork)
+-------------------------------
+
+Optical:
+- Added: HighDpiAware - Means clearer outlines of font and shape.
+shape
+- Added: Icon with the official ZZZProjects image
+- Added: To avoid truncated elements, the app is launched maximized on
+maximized on old OS
+- Changed: The app elements in the FormDesigner have all been rearranged
+- Changed: Donate image removed + logo is presented more favorably
+- Changed: Assembly information has been slightly adjusted
+
+Functional:
+- Full compatibility with Windows XP!!!
+(instead of .NET Framework 4.5 now only .NET Framework 4.0 is required) - the bug was
+error was that after compiling in VisualStudio the packer "ILMerge" took a higher
+framework as a new requirement, I used ILMerge on Windows XP and thus used its lower
+and thus set its lower requirement as a benchmark
+- After execution via command line, the (invisible) app and thus the process is
+the process is closed properly (entering ENTER in a visible terminal is no longer
+terminal to exit is no longer necessary), this was a very big bug in the original
+the original version of ZZZProjects
+- Self-generated file certificate included (better reputation on
+VirusTotal)
+
+
 -------------------------------
 LICENSE (OPEN-SOURCE)
 -------------------------------
