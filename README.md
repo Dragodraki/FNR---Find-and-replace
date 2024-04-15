@@ -10,7 +10,7 @@ Find and replace content in files, reliable (stable), no matter the encoding, no
 HOW IT WORKS TECHNICALLY
 -------------------------------
 The tool is written in C#, a standard WinForm application is used. ZZZProjects put very much effort into the technique of filtering and data processing. All you need to do is enter the folder path to your target file(s), the file name and the mask (what you look for and what it should be replaced with). I am not very familiar with the detailed work of regex and complicated binary comparisons, but these are available too. The GUI even offers a button for generating the whole options as one single command-line.
-Thats one of the funniest things: Tools having a GUI but a (silent) command-line interface at the same time, need a WinForm. When entering parameter/command-line options, the WinForm will be started too, but immediately hidden so the user does not even notice. This way, there isn't any black console window blinking for a seccond and then disappear, but completely invisible. A normal double-clicking on the executable instead will open the GUI.
+Thats one of the funniest things: Tools having a GUI but a (silent) command-line interface at the same time, need a WinForm. When entering parameter/command-line options, the WinForm will be started too, but immediately hidden so the user does not even notice. This way, there isn't any black console window blinking for a seccond and then disappear, but completely invisible. A normal double-clicking on the executable instead will open the GUI as you can see below.
 
 ![basic-usage-1](https://github.com/Dragodraki/FNR---Find-and-replace/assets/76787321/8b8d9b48-f4af-4c0b-8255-d77bcc70af97)
 
