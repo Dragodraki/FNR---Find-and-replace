@@ -37,26 +37,25 @@ Syntax usage:
 - fnr.exe [-Parameter]<br/>
 
 Parameters:  
---cl	Required to run on command line.
---find	Required. Text to find.
---replace	Replacement text. If not specified only find operation is performed.
---useRegEx	Use regular expressions in ‘find’ parameter.
---useEscapeChars	Use escape chars like ‘\n’ in ‘find’ and ‘replace’ parameters.
---caseSensitive	Case Sensitive.
---dir	Required. Directory path.
---includeSubDirectories	Include files in SubDirectories.
---fileMask	Required. File mask or multiple file masks separated by comma.
---excludeFileMask	File masks to exclude. If multiple - separate by comma
---help	Dispaly help screen.
---showEncoding	Displays detected encoding for each file with matches.
---silent	Supress the command window output.
---logFile	Path to log file where to save command output.
---skipBinaryFileDetection	Ignore detection of binary files.
---alwaysUseEncoding	Skip encoding detection and always use specified encoding.
---defaultEncodingIfNotDetected	If encoding is not detected in some very rare cases, use this one.
---includeFilesWithoutMatches	Include files without matches in results.
---setErrorLevelIfAnyFileErrors	Return ErrorLevel 2 if any files have read/write errors.
---cl	Required to run on command line.
+--cl 	  Required to run on command line.<br/>
+--find 	  Required. Text to find.<br/>
+--replace 	  Replacement text. If not specified only find operation is performed.<br/>
+--useRegEx 	  Use regular expressions in ‘find’ parameter.<br/>
+--useEscapeChars 	  Use escape chars like ‘\n’ in ‘find’ and ‘replace’ parameters.<br/>
+--caseSensitive 	  Case Sensitive.<br/>
+--dir 	  Required. Directory path.<br/>
+--includeSubDirectories 	  Include files in SubDirectories.<br/>
+--fileMask 	  Required. File mask or multiple file masks separated by comma.<br/>
+--excludeFileMask 	  File masks to exclude. If multiple - separate by comma<br/>
+--help 	  Dispaly help screen.<br/>
+--showEncoding 	  Displays detected encoding for each file with matches.<br/>
+--silent 	  Supress the command window output.<br/>
+--logFile 	  Path to log file where to save command output.<br/>
+--skipBinaryFileDetection 	  Ignore detection of binary files.<br/>
+--alwaysUseEncoding 	  Skip encoding detection and always use specified encoding.<br/>
+--defaultEncodingIfNotDetected 	  If encoding is not detected in some very rare cases, use this one.<br/>
+--includeFilesWithoutMatches   	Include files without matches in results.<br/>
+--setErrorLevelIfAnyFileErrors 	  Return ErrorLevel 2 if any files have read/write errors.<br/>
 
 Examples:  
 - fnr.exe --cl --dir "C:\temp\myfolder" --fileMask "myfile.txt" --find "StringToSearch=123" --replace "StringToReplace=888"
