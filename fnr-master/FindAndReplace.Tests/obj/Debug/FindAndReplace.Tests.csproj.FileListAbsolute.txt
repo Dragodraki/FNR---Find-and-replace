@@ -1,0 +1,2 @@
+C:\Users\Jan\Downloads\fnr-master\FindAndReplace.Tests\obj\Debug\FindAndReplace.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Jan\Downloads\fnr-master\FindAndReplace.Tests\obj\Debug\FindAndReplace.Tests.csproj.CoreCompileInputs.cache

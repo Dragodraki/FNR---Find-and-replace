@@ -1,0 +1,2 @@
+C:\Users\Jan\Downloads\findandreplace-master\findandreplace-master\src\FindAndReplace\obj\Debug\FindAndReplace.csprojResolveAssemblyReference.cache
+C:\Users\Jan\Downloads\findandreplace-master\findandreplace-master\src\FindAndReplace\obj\Debug\FindAndReplace.csproj.CoreCompileInputs.cache

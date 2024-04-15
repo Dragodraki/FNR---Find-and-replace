@@ -1,0 +1,6 @@
+C:\Users\Jan\Downloads\findandreplace-master\findandreplace-master\src\EncodingTools\bin\Debug\EncodingTools.dll
+C:\Users\Jan\Downloads\findandreplace-master\findandreplace-master\src\EncodingTools\bin\Debug\EncodingTools.pdb
+C:\Users\Jan\Downloads\findandreplace-master\findandreplace-master\src\EncodingTools\obj\Debug\EncodingTools.csprojResolveAssemblyReference.cache
+C:\Users\Jan\Downloads\findandreplace-master\findandreplace-master\src\EncodingTools\obj\Debug\EncodingTools.csproj.CoreCompileInputs.cache
+C:\Users\Jan\Downloads\findandreplace-master\findandreplace-master\src\EncodingTools\obj\Debug\EncodingTools.dll
+C:\Users\Jan\Downloads\findandreplace-master\findandreplace-master\src\EncodingTools\obj\Debug\EncodingTools.pdb
