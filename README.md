@@ -37,8 +37,8 @@ Syntax usage:
 - fnr.exe [-Parameter]
 
 Parameters:  
---cl 	  Required to run on command line.
---find 	  Required. Text to find.
+--cl 	  Required to run on command line.<br/>
+--find 	  Required. Text to find.<br/>
 --replace 	  Replacement text. If not specified only find operation is performed.
 --useRegEx 	  Use regular expressions in ‘find’ parameter.
 --useEscapeChars 	  Use escape chars like ‘\n’ in ‘find’ and ‘replace’ parameters.
